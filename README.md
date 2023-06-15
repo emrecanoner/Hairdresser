@@ -1,16 +1,26 @@
-# hairdresser
+# Hairdresser
 
-A new Flutter project.
+<b><i>Welcome!</i></b>
 
-## Getting Started
+<italic>-> Easily schedule your hairdressers reservation.</italic>
 
-This project is a starting point for a Flutter application.
+<b><i>Find Hairdresser</i></b>
 
-A few resources to get you started if this is your first Flutter project:
+<italic>-> Discover the hairdressers near you.</italic>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<b><i>Make a Reservation</i></b>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<italic>-> Choose a suitable time and make your reservation.</italic>
+
+<p>
+  <img src="/Screenshot/1.png" width="300" />
+  <img src="/Screenshot/2.png" width="300" />
+    <img src="/Screenshot/3.png" width="300" />
+  <img src="/Screenshot/4.png" width="300" />
+    <img src="/Screenshot/5.png" width="300" />
+  <img src="/Screenshot/6.png" width="300" />
+    <img src="/Screenshot/7.png" width="300" />
+  <img src="/Screenshot/8.png" width="300" >
+    <img src="/Screenshot/9.png" width="300" />
+  
+</p>
