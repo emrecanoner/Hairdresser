@@ -92,7 +92,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       height: MediaQueryHelper.getPieceOfGridHeight(
                           context, 2, 2, 2),
                     ),
-                    CustomtSizedBox(
+                    CustomSizedBox(
                         phoneSize: 1,
                         tabletSize: 1,
                         webSize: 1,
@@ -101,7 +101,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       item.title,
                       style: CustomStyle.onBoardTitle,
                     ),
-                    CustomtSizedBox(
+                    CustomSizedBox(
                         phoneSize: .7,
                         tabletSize: .7,
                         webSize: .7,
@@ -185,13 +185,13 @@ class OnboardingItemWidget extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Image.asset(item.image),
-          CustomtSizedBox(
+          CustomSizedBox(
               phoneSize: 1, tabletSize: 1, webSize: 1, isHeight: true),
           Text(
             item.title,
             style: CustomStyle.onBoardTitle,
           ),
-          CustomtSizedBox(
+          CustomSizedBox(
               phoneSize: 1, tabletSize: 1, webSize: 1, isHeight: true),
           Text(
             item.description,

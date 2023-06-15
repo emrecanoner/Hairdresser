@@ -31,7 +31,7 @@ class SnackBarClass extends StatelessWidget {
           ),
           child: Row(
             children: [
-              CustomtSizedBox(
+              CustomSizedBox(
                   phoneSize: 1, tabletSize: 1, webSize: 1, isHeight: false),
               Expanded(
                 child: Column(
@@ -43,7 +43,7 @@ class SnackBarClass extends StatelessWidget {
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                     ),
-                    CustomtSizedBox(
+                    CustomSizedBox(
                         phoneSize: .5,
                         tabletSize: .5,
                         webSize: .5,

@@ -57,14 +57,14 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text('Make a Reservation', style: CustomStyle.reservationTitle),
-                CustomtSizedBox(
+                CustomSizedBox(
                     phoneSize: .1, tabletSize: .1, webSize: .1, isHeight: true),
                 Text(
                   'Hairdresser: $salonName',
                   style: CustomStyle.reservationHairdresser,
                   textAlign: TextAlign.center,
                 ),
-                CustomtSizedBox(
+                CustomSizedBox(
                     phoneSize: .1, tabletSize: .1, webSize: .1, isHeight: true),
                 ElevatedButton(
                   onPressed: () async {
@@ -92,7 +92,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     backgroundColor: CustomColor.kWhiteColor,
                   ),
                 ),
-                CustomtSizedBox(
+                CustomSizedBox(
                     phoneSize: .1, tabletSize: .1, webSize: .1, isHeight: true),
                 TextField(
                     controller: _dateController,
@@ -100,7 +100,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     decoration: InputDecoration(
                         labelText: 'Date', labelStyle: CustomStyle.whiteColor),
                     style: CustomStyle.whiteColor),
-                CustomtSizedBox(
+                CustomSizedBox(
                     phoneSize: .1, tabletSize: .1, webSize: .1, isHeight: true),
                 ElevatedButton(
                   onPressed: () async {
@@ -119,7 +119,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     backgroundColor: CustomColor.kWhiteColor,
                   ),
                 ),
-                CustomtSizedBox(
+                CustomSizedBox(
                     phoneSize: .1, tabletSize: .1, webSize: .1, isHeight: true),
                 TextField(
                     controller: _timeController,
@@ -127,7 +127,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     decoration: InputDecoration(
                         labelText: 'Time', labelStyle: CustomStyle.whiteColor),
                     style: CustomStyle.whiteColor),
-                CustomtSizedBox(
+                CustomSizedBox(
                     phoneSize: .1, tabletSize: .1, webSize: .1, isHeight: true),
                 ElevatedButton(
                   onPressed: () {
@@ -252,7 +252,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     },
                   ),
                 ),
-                CustomtSizedBox(
+                CustomSizedBox(
                     phoneSize: .3,
                     tabletSize: .3,
                     webSize: .3,
@@ -277,11 +277,11 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                 ),
               ],
             ),
-            CustomtSizedBox(
+            CustomSizedBox(
                 phoneSize: .25, tabletSize: .25, webSize: .25, isHeight: true),
             Text('Choose a Hairdresser', style: CustomStyle.homeScreenTitle),
             _buildSalonList(homeController),
-            CustomtSizedBox(
+            CustomSizedBox(
                 phoneSize: .25, tabletSize: .25, webSize: .25, isHeight: true),
             if (homeController.reservations.isNotEmpty)
               _buildReservationsList(homeController),
@@ -332,7 +332,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
           child: Row(
             children: [
               Icon(Icons.spa),
-              CustomtSizedBox(
+              CustomSizedBox(
                   phoneSize: .4, tabletSize: .4, webSize: .4, isHeight: false),
               Expanded(
                 child: Column(

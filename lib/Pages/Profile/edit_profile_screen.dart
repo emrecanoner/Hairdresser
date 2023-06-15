@@ -45,7 +45,7 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text("Let's Change", style: CustomStyle.headerWords),
-                    CustomtSizedBox(
+                    CustomSizedBox(
                         phoneSize: .3,
                         tabletSize: .3,
                         webSize: .3,
@@ -59,7 +59,7 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
                     ),
                   ],
                 ),
-                CustomtSizedBox(
+                CustomSizedBox(
                     phoneSize: .5, tabletSize: .5, webSize: .5, isHeight: true),
                 TextFormField(
                   controller: _nameController,
@@ -79,7 +79,7 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
                     ),
                   ),
                 ),
-                CustomtSizedBox(
+                CustomSizedBox(
                     phoneSize: .3, tabletSize: .3, webSize: .3, isHeight: true),
                 TextFormField(
                   controller: _emailController,
@@ -99,7 +99,7 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
                     ),
                   ),
                 ),
-                CustomtSizedBox(
+                CustomSizedBox(
                     phoneSize: .3, tabletSize: .3, webSize: .3, isHeight: true),
                 TextFormField(
                   controller: _passwordController,
@@ -120,7 +120,7 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
                   ),
                   obscureText: true,
                 ),
-                CustomtSizedBox(
+                CustomSizedBox(
                     phoneSize: .5, tabletSize: .5, webSize: .5, isHeight: true),
                 ElevatedButton(
                   onPressed: () {

@@ -38,7 +38,7 @@ class LoginScreen extends ConsumerWidget {
                       'Welcome',
                       style: CustomStyle.headerWords,
                     ),
-                    CustomtSizedBox(
+                    CustomSizedBox(
                         phoneSize: .3,
                         tabletSize: .3,
                         webSize: .3,
@@ -52,7 +52,7 @@ class LoginScreen extends ConsumerWidget {
                     ),
                   ],
                 ),
-                CustomtSizedBox(
+                CustomSizedBox(
                     phoneSize: .5, tabletSize: .5, webSize: .5, isHeight: true),
                 TextFormField(
                   controller: emailController,
@@ -72,7 +72,7 @@ class LoginScreen extends ConsumerWidget {
                     ),
                   ),
                 ),
-                CustomtSizedBox(
+                CustomSizedBox(
                     phoneSize: .3, tabletSize: .3, webSize: .3, isHeight: true),
                 TextFormField(
                   controller: passwordController,
@@ -93,7 +93,7 @@ class LoginScreen extends ConsumerWidget {
                   ),
                   obscureText: true,
                 ),
-                CustomtSizedBox(
+                CustomSizedBox(
                     phoneSize: .5, tabletSize: .5, webSize: .5, isHeight: true),
                 ElevatedButton(
                   onPressed: () {

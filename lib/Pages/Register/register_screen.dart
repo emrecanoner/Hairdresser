@@ -37,7 +37,7 @@ class RegisterScreen extends ConsumerWidget {
                       "Let's Meet",
                       style: CustomStyle.headerWords,
                     ),
-                    CustomtSizedBox(
+                    CustomSizedBox(
                         phoneSize: .3,
                         tabletSize: .3,
                         webSize: .3,
@@ -51,7 +51,7 @@ class RegisterScreen extends ConsumerWidget {
                     ),
                   ],
                 ),
-                CustomtSizedBox(
+                CustomSizedBox(
                     phoneSize: .5, tabletSize: .5, webSize: .5, isHeight: true),
                 TextFormField(
                   controller: nameController,
@@ -71,7 +71,7 @@ class RegisterScreen extends ConsumerWidget {
                     ),
                   ),
                 ),
-                CustomtSizedBox(
+                CustomSizedBox(
                     phoneSize: .3, tabletSize: .3, webSize: .3, isHeight: true),
                 TextFormField(
                   controller: emailController,
@@ -91,7 +91,7 @@ class RegisterScreen extends ConsumerWidget {
                     ),
                   ),
                 ),
-                CustomtSizedBox(
+                CustomSizedBox(
                     phoneSize: .3, tabletSize: .3, webSize: .3, isHeight: true),
                 TextFormField(
                   controller: passwordController,
@@ -112,7 +112,7 @@ class RegisterScreen extends ConsumerWidget {
                   ),
                   obscureText: true,
                 ),
-                CustomtSizedBox(
+                CustomSizedBox(
                     phoneSize: .5, tabletSize: .5, webSize: .5, isHeight: true),
                 ElevatedButton(
                   onPressed: () {
