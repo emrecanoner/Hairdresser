@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:hairdresser/Constant/media_query_helper.dart';
 
-class CustomtSizedBox extends StatelessWidget {
+class CustomSizedBox extends StatelessWidget {
   final bool isHeight;
   final double phoneSize;
   final double tabletSize;
   final double webSize;
-  const CustomtSizedBox({
+  const CustomSizedBox({
     required this.phoneSize,
     required this.tabletSize,
     required this.webSize,

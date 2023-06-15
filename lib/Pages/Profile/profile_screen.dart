@@ -69,7 +69,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                         children: [
                           Text('Nice To See You',
                               style: CustomStyle.headerWords),
-                          CustomtSizedBox(
+                          CustomSizedBox(
                               phoneSize: .3,
                               tabletSize: .3,
                               webSize: .3,
@@ -83,7 +83,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                           ),
                         ],
                       ),
-                      CustomtSizedBox(
+                      CustomSizedBox(
                           phoneSize: .5,
                           tabletSize: .5,
                           webSize: .5,
@@ -111,7 +111,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                           ),
                         ),
                       ),
-                      CustomtSizedBox(
+                      CustomSizedBox(
                           phoneSize: .3,
                           tabletSize: .3,
                           webSize: .3,
@@ -139,7 +139,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                           ),
                         ),
                       ),
-                      CustomtSizedBox(
+                      CustomSizedBox(
                           phoneSize: .3,
                           tabletSize: .3,
                           webSize: .3,
@@ -168,7 +168,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                         ),
                         obscureText: true,
                       ),
-                      CustomtSizedBox(
+                      CustomSizedBox(
                           phoneSize: .5,
                           tabletSize: .5,
                           webSize: .5,
