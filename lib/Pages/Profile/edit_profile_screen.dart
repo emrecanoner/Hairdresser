@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:hairdresser/Constant/Style.dart';
+import 'package:hairdresser/Constant/constant.dart';
 import 'package:hairdresser/Constant/constant_appbar.dart';
 import 'package:hairdresser/Constant/custom_sizedbox.dart';
 import 'package:hairdresser/Constant/media_query_helper.dart';
@@ -123,14 +124,28 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
                     phoneSize: .5, tabletSize: .5, webSize: .5, isHeight: true),
                 ElevatedButton(
                   onPressed: () {
-                    final nameSurname = _nameController.text;
-                    final email = _emailController.text;
-                    final password = _passwordController.text;
-                    profileController.firebaseService.updateUserProfile(
-                        email: email,
-                        nameSurname: nameSurname,
-                        password: password,
-                        context);
+                    if (_nameController.text.isEmpty) {
+                      messenger(context, "Please fill the blanks");
+                    } else if (_emailController.text.isEmpty) {
+                      messenger(context, "Please fill the blanks");
+                    } else if (_passwordController.text.isEmpty) {
+                      messenger(context, "Please fill the blanks");
+                    } else {
+                      final nameSurname = _nameController.text;
+                      final email = _emailController.text;
+                      final password = _passwordController.text;
+                      profileController.firebaseService
+                          .updateUserProfile(
+                              email: email,
+                              nameSurname: nameSurname,
+                              password: password,
+                              context)
+                          .then((value) => {
+                                _nameController.clear(),
+                                _emailController.clear(),
+                                _passwordController.clear(),
+                              });
+                    }
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: CustomColor.kBlackColor,
