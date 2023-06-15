@@ -1,13 +1,16 @@
 # Hairdresser
 
-<strong>Welcome!</strong>
-<italic>Easily schedule your hairdressers reservation.</italic>
+<b><i>Welcome!</i></b>
 
-<strong>Find Hairdresser</strong>
-<italic>Discover the hairdressers near you.</italic>
+<italic>-> Easily schedule your hairdressers reservation.</italic>
 
-<strong>Make a Reservation</strong>
-<italic>Choose a suitable time and make your reservation.</italic>
+<b><i>Find Hairdresser</i></b>
+
+<italic>-> Discover the hairdressers near you.</italic>
+
+<b><i>Make a Reservation</i></b>
+
+<italic>-> Choose a suitable time and make your reservation.</italic>
 
 <p>
   <img src="/Screenshot/1.png" width="300" />
