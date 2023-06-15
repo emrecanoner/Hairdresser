@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "596830612769",
+    "project_id": "hairdrasser-12684",
+    "storage_bucket": "hairdrasser-12684.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596830612769:android:2317ee0947d18500db6260",
+        "android_client_info": {
+          "package_name": "com.example.hairdresser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596830612769-go52s6enjabkgbo6rtc5mi24725snhg8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDANiu4yZ5RX2SssZ7-dNv9Q_ZiDPiErQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596830612769-go52s6enjabkgbo6rtc5mi24725snhg8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
